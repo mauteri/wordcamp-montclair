@@ -82,6 +82,7 @@ a:hover, a:active, a:focus, a:visited:hover, a:visited:active, a:visited:focus {
 .entry-content h2 {
 	font-size: 42px;
 	font-size: 4.2rem;
+	color: #b95e21;
 }
 
 .entry-content h3 {
@@ -212,8 +213,8 @@ a.cta-button {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #1d215f;
-	background: #38ccd5;
+	color: #FFF;
+	background: #255488;
 	font-size: 18px;
 	font-size: 1.8rem;
 	font-weight: bold;
@@ -299,7 +300,7 @@ input[type='button']:focus,
 .page-navigation-container {
 	position: relative;
 	z-index: 1;
-	background: #a00a74;
+	background: #255488;
 }
 
 .page-navigation-container .menu-primary-nav-container {
@@ -329,7 +330,7 @@ input[type='button']:focus,
 
 .page-navigation-container li:hover a,
 	.page-navigation-container li.focus a {
-	color: #a00a74;
+	color: #255488;
 	text-decoration: none;
 }
 
@@ -341,7 +342,7 @@ input[type='button']:focus,
 
 .page-navigation-container ul ul a {
 	padding: 8px 30px;
-	color: #a00a74;
+	color: #255488;
 	width: 17em;
 }
 
@@ -419,7 +420,7 @@ input[type='button']:focus,
 
 	.page-navigation-container a:focus {
 		background: #ffffff;
-		color: #a00a74 !important;
+		color: #255488 !important;
 	}
 
 	.page-navigation-container a {
@@ -888,7 +889,7 @@ body.single .entry-header .byline, body.single
 .entry-title {
 	margin-top: 0;
 	margin-bottom: 20px;
-	color: #a00a74;
+	color: #255488;
 	font-weight: 900;
 	line-height: 1.1;
 }
@@ -906,7 +907,7 @@ body.single .entry-header .byline, body.single
 }
 
 .entry-content .contact-form label span {
-	color: #a00a74;
+	color: #255488;
 }
 
 .post-navigation {
@@ -1025,9 +1026,9 @@ body.error404 .page-content > :nth-child(1),
 	padding-top: 2em;
 }
 
-footer {
+.site-footer {
 	background: #ffffff;
-	border-top: 2px solid #a00a74;
+	border-top: 2px solid #255488;
 	padding-top: 2em;
 }
 
