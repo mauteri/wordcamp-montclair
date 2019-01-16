@@ -499,23 +499,6 @@ a.cta-button:focus {
 	display: none;
 }
 
-/* Try a smaller logo on interior pages */
-
-body:not(.home) .custom-header .wp-custom-header,
-body:not(.home) .custom-header .custom-logo-link {
-	padding-top: 100px;
-	padding-bottom: 130px;
-	max-width: 500px;
-}
-
-body:not(.home) .custom-header:before {
-	height: 150px;
-}
-
-body:not(.home) .custom-header:after {
-	height: 200px;
-}
-
 .widget {
 	margin: 0;
 }
