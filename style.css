@@ -356,6 +356,12 @@ a.cta-button:focus {
 	text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+	.page-navigation-container {
+		text-align: left;
+	}
+}
+
 .page-navigation-container .sub-menu {
 	text-align: left;
 }
@@ -364,6 +370,12 @@ a.cta-button:focus {
 	float: none;
 	display: inline-block;
 	margin-left: -5px;
+}
+
+@media screen and (max-width: 800px) {
+	.page-navigation-container li {
+		margin-left: 0;
+	}
 }
 
 .page-navigation-container li:hover,
