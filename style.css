@@ -352,6 +352,20 @@ a.cta-button:focus {
 	font-weight: 900;
 }
 
+.page-navigation-container {
+	text-align: center;
+}
+
+.page-navigation-container .sub-menu {
+	text-align: left;
+}
+
+.page-navigation-container li {
+	float: none;
+	display: inline-block;
+	margin-left: -5px;
+}
+
 .page-navigation-container li:hover,
 .page-navigation-container li.focus {
 	background: #ffffff;
@@ -378,15 +392,6 @@ a.cta-button:focus {
 .page-navigation-container ul ul li:hover a,
 .page-navigation-container ul ul li.focus a {
 	color: #1d215f;
-	margin-left: -15px;
-}
-
-.page-navigation-container ul ul li:hover a:before,
-.page-navigation-container ul ul li.focus a:before {
-	display: inline-block;
-	content: '\25cf';
-	width: 13px;
-	margin-right: 2px;
 }
 
 .page-navigation-container .callout {
@@ -1211,4 +1216,44 @@ body.error404 .search-form input {
 	text-align: center;
 }
 
+.wcorg-organizers .avatar {
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#tix {
+	padding: 30px !important;
+	background-color: #eee;
+}
+
+#tix th {
+	text-align: left;
+	background-color: #ccc;
+	padding: 5px;
+}
+
+#tix td {
+	padding: 5px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.site-header::before {
+	height: 320px;
+	background: url('https://2019.montclair.wordcamp.org/files/2019/01/New-Montclair-WordCamp-Header.png') no-repeat;
+}
+
+footer#colophon {
+	height: 236px;
+	background: url('https://2019.montclair.wordcamp.org/files/2019/01/New-Montclair-WordCamp-Footer.png') no-repeat !important;
+}
+
+.wcorg-sponsor {
+	padding: 20px 0;
+	border-bottom: 1px dotted #ccc;
+}
+
+.menu-item-265 {
+	background-color: #d25d12;
+}
 /* Custom CSS from 2019.montclair.wordcamp.org */
